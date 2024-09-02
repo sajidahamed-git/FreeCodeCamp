@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+        <meta charset="UTF-8" lang="en" />
+        <link rel="stylesheet" href="styles.css">
+    
+        <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking this Survey.</p>
+    
+    <form id="survey-form">
+        <fieldset>
+             
+            <label for="name" id="name-label">Name
+                <input type="text" id="name" name="name"  placeholder="Enter your Name" required>
+            </label>
+        
+            <label for="email" id="email-label">Email: 
+                <input type="email" name="email" id="email"  placeholder="Enter your Email" required>
+            </label>
+            <label for="age" id="number-label">Age:
+                <input type="number" id="number" value="enter your age" placeholder="Enter your age" min="12" max="120">
+            </label>
+            <label for="selector" id="selector-label"> Which option best describes your Current role
+                <select name="role" id="dropdown">
+                    <option value="">Please choose an option</option>
+                    <option value="Student">Student</option>
+                    <option value="Professional">Professional</option>
+                </select>
+            </label>
+            <label for="source">How did you hear about us?</label>
+                <input type="radio" name="source" id="friend" value="friend" checked >
+                <label class="apple" for="friend" >friend</label>
+            
+                <input type="radio" name="source" id="advertisement" value="advertisement">
+                <label class="apple" for="advertisement" >Advertisement</label>
+
+                <input type="radio" name="source" id="internet" value="internet">
+                <label class="apple" for="internet">Internet
+
+            </label>
+
+            <label for="checkbox">What technology did you learn with us?</label>
+                <input type="checkbox" value="1" name="Front" id="Front">FrontEnd
+                <input type="checkbox" value="2"name="Front" id="Front">Backend
+                <input type="checkbox" value="3"name="Front" id="Front">DevOps
+                <input type="checkbox" value="4"name="Front" id="Front">AI
+
+            <label for="textarea">Please provide your feedback!</label>        
+                <textarea name="text" id="text">Enter your feedback</textarea>
+
+            <button type="submit" id="submit">Submit</button>
+
+        </fieldset>
+                  
+
+          
+            
+
+        
+    </form>
+</body>
+</html>
