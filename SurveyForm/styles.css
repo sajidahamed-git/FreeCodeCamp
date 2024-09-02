@@ -1,0 +1,42 @@
+h1,p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1em auto;
+    text-align: center;  
+}
+
+p{font-size: 25px;}
+
+label,input,select,button{
+    display:block;
+    margin: 0.5rem 0;
+    margin-top: 10px;
+    color: black;
+ }
+
+ input[type="radio"], label.apple,input[type="checkbox"] {
+    display: inline; /* Ensure both elements are inline */
+    vertical-align: middle; /* Aligns radio button and label text vertically */
+}
+
+fieldset {background-color: grey;}
+
+body {
+    background-color: rgb(122, 53, 53);
+    width:50%;
+    margin-left: 25%;
+    }
+button{margin: auto;}
+
+/* label{
+    font-size: 20px;
+    color: rgb(63, 44, 233);
+    margin-left: 2em;
+    margin-top: 1em;
+} */
+/* input {
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+} */
